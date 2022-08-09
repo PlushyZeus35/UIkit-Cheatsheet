@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camino de Santiago</title>
+    <link rel="icon" type="image/x-icon" href="camino.jpg">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="article.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <nav class="uk-navbar-container uk-padding uk-padding-remove-vertical" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="#">
+                    <img src="camino.jpg" width="40px" height="40px" alt="">
+                </a>
+            </div>
+            <div class="uk-navbar-right">
+    
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="#">Sections <span uk-navbar-parent-icon></span></a>
+                        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
+                            <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#history">Historia</a></li>
+                                        <li><a href="#santiago">Santiago el Mayor</a></li>
+                                        <li><a href="#origin">Origen</a></li>
+                                        <li><a href="#decadencia">Decadencia</a></li>
+                                        <li><a href="#auge">Auge</a></li>
+                                        <li class="uk-active"><a href="#containers">Caminos</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#grid">Propósito</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-active"><a href="#cards">Consejos</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Mas Info</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+        
+                <div class="uk-navbar-item">
+                    <div>Echa un vistazo a <a href="https://www.pilgrim.es/">PILGRIM</a></div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; clsActivated: uk-transition-active; center: true">
+
+        <ul class="uk-slider-items">
+            <li >
+                <div class="uk-panel">
+                    <img src="santiago.jpg" width="400" height="600" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Bottom</h3>
+                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </li>
+            <li >
+                <div class="uk-panel">
+                    <img src="santiago1.jpg" width="400" height="600" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Bottom</h3>
+                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </li>
+            <li >
+                <div class="uk-panel">
+                    <img src="santiago2.jpg" width="400" height="600" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Bottom</h3>
+                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </li>
+            <li >
+                <div class="uk-panel">
+                    <img src="catedral.jpg" width="400" height="600" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Bottom</h3>
+                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </li>
+            <li >
+                <div class="uk-panel">
+                    <img src="galaxy5.jpg" width="400" height="600" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Bottom</h3>
+                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </li>
+            <li >
+                <div class="uk-panel">
+                    <img src="galaxy6.jpg" width="400" height="600" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Bottom</h3>
+                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    
+    </div>
+    
+    <div class="main uk-container-expand uk-background-muted">
+
+        <div class="uk-container uk-padding" id="history">
+            
+            <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="santiagomayor.jpg" uk-img>
+                <h1 class="uk-heading-line uk-text-center"><span>Historia</span></h1>
+            </div>
+            <div class="section" id="santiago">
+                <h2 class="uk-heading-bullet uk-text-bold">Santiago el Mayor</h2>
+                <img class="uk-align-right@s uk-margin-remove-adjacent" src="santiagomayor2.jpg" width="225" height="150" alt="Example image">
+                <p>Santiago de Zebedeo o <a href="" class="uk-link">Santiago el Mayor</a> fue uno de los apóstoles más destacados de Jesús de Nazaret. 
+                    Es conocido como el Mayor para distinguirlo de otro apóstol con el mismo nombre. Santiago el Mayor pertenecia al 
+                    llamado "círculo de dilectos" de Jesús que estuvo con él en ocasiones especiales. Él y su hermano Juan, también apóstol de Jesús, fueron 
+                    apodados como "hijos del trueno" por su carácter impetuoso.</p>
+                <p>Trás el Pentecostes, cuando los apóstoles fueron enviados a la predicación, Santiago de Zebedeo cruzó el mar Mediterraneo y desembarcó en Hispania, 
+                    comenzando a predicar en Gallaecia (Galicia) tras pasar las columnas de Hércules. Se dice que pasó por Portugal, Tarraco o incluso se postula su 
+                    llegada a Carthago Nova (Cartagena) de donde partiría hacía el norte hasta acabar en A Coruña. Esta tradición hace de Santiago el santo patrón protector de España.
+                    hizo algunos discípulos, y siete de ellos fueron los que continuaron la tarea evangelizadora una vez que Santiago regresó a Jerusalén. 
+                    Para ello fueron a Roma y fueron ordenados obispos por San Pedro. Son los siete Varones apostólicos.
+                </p>
+                <p>
+                    Santiago habría hecho todo el viaje de vuelta desde España hasta Jerusalén para encontrar a María, madre de Jesús de Nazaret. Allí en Jesusalén murió decapitado 
+                    por Herodes Agripa entre los años 41 y 44 siendo no solo el primer apóstol en morir sino también el primer mártir de la historia.
+                </p>
+                <p>
+                    Los discípulos de Santiago recogieron el cuerpo de este y lo trasladaron hacía Hispania. Allí le dieron entierro en dominios de la reina Lupa hasta que en el Siglo IX 
+                    fue descubierto su cuerpo.
+                </p>
+            </div>
+
+            <div class="section" id="origin">
+                <h2 class="uk-heading-bullet uk-text-bold">Origen</h2>
+                <p>En un momento impreciso de la década de 820-830 se produce el descubrimiento de la tumba de Santiago el Mayor.
+                    Un eremita del lugar de Solovio (donde hoy se alza la Iglesia de San Fiz de Solovio), de nombre Paio, localizó, 
+                    en un bosque llamado Libredón, las ruinas de un primitivo enterramiento. Contienen las que serán identificadas 
+                    como tumbas del apóstol Santiago y sus discípulos Teodoro y Atanasio.
+                </p>
+                <img class="uk-align-left@s uk-margin-remove-adjacent" src="alfonsoII.jpg" width="225" height="150" alt="Example image">
+                <p>
+                    En plena reyerta contra los musulmanes, siglo IX, el monarca Alfonso II ordena construir un sepulcro en el lugar 
+                    donde se habían descubierto los restos del Apóstol, contribuyendo así al inicio de las peregrinaciones.
+                    Estamos en el germen de la actual catedral y de la ciudad de Santiago.
+                </p>
+                
+                <p>
+                    Otro personaje influyente que impulsó de una manera notable el auge de esta tradición fue el conquistador Carlomagno, 
+                    el cual se aseguró de que todos los Caminos fueran seguros y dedicó parte de su vida a luchar contra las huestes musulmanas.
+                    Un siglo más tarde, la noticia de que el sepulcro del Apóstol se encontraba en Galicia, ya se había extendido por casi toda Europa, 
+                    atrayendo a miles de peregrinos desde todas las partes del continente. En esta época, los edificios religiosos de toda Europa estaban 
+                    atareados en construir templos con las mejores reliquias para así atraer a peregrinos, consiguiendo así que Santiago de Compostela 
+                    sea uno de los destinos de peregrinación más importantes del mundo.
+                </p>
+                <p>
+                    Se puede considerar que el propio Alfonso II, rey asturiano hasta el año 842, fue el primer peregrino como tal, al partir desde Oviedo 
+                    para comprobar con sus propios ojos la veracidad del hallazgo del Apóstol y rendirle culto. Así nace el primer trazado jacobeo oficial, 
+                    conocido como Camino Primitivo.
+                    Otro de los peregrinos más famosos fue Aymeric Picaud, a quien se le atribuye la autoría de parte del Códice Calixtino, 
+                    concretamente la parte quinta conocida como “Guía del peregrino”. Este, al contrario que el rey astúr, decidió realizar 
+                    el trazado conocido como Camino Francés, detallando en sus escritos información útil sobre alojamientos, templos, gastronomía, 
+                    cultura, costumbres del lugar, etc.
+                </p>
+            </div>
+
+            <div class="section" id="decadencia">
+                <h2 class="uk-heading-bullet uk-text-bold">Decadencia</h2>
+                <p>
+                    En el siglo xvi se dieron varios factores que provocaron una profunda crisis en las peregrinaciones a la tumba del apóstol: 
+                    decadencia cualitativa en la tipología de los peregrinos, aparición de la teología protestante y, unido a esto, 
+                    los conflictos bélicos que ocurrieron en Francia y la peste.
+                </p>
+                <p>
+                    Se habla de «decadencia cualitativa» del Camino para indicar que las personas que realizaban la peregrinación religiosa prácticamente 
+                    desaparecieron, siendo sustituidas por unas tipologías de peregrinos de aquellos que la hacían por condena de un tribunal o por cuenta 
+                    de otra persona que les pagaba, que habían ido apareciendo durante las décadas anteriores y que se expandieron de manera notable en este periodo.
+                    Igualmente, supuso un aumento de la inseguridad con el surgimiento de bandas de asaltantes en algunos puntos y el aumento de la 
+                    criminalidad entre los propios peregrinos.
+                </p>
+                <p>
+                    El comienzo de la Edad Contemporánea marcó también el de una nueva crisis que se tornará profunda con los años debido a una serie de factores, 
+                    tanto materiales como espirituales, y que llevará a su casi desaparición a mediados del siglo xx. Se considera, tradicionalmente, que el punto 
+                    de inicio lo marcó la Revolución francesa.
+                </p>
+            </div>
+
+            <div class="section" id="auge">
+                <h2 class="uk-heading-bullet uk-text-bold">Auge</h2>
+                <img class="uk-align-right@s uk-margin-remove-adjacent" src="camino4.jpg" width="290" height="170" alt="Example image">
+                <p>
+                    Tras la declaración del papa León XIII en 1884 de que los restos redescubiertos tras su desaparición eran realmente los del Apóstol 
+                    y el posterior nombramiento de la ruta jacobea como Patrimonio Universal de la Humanidad, relanzaron esta ruta milenaria.
+                </p>
+                
+                <p>
+                    Desde la década de los 90, el Camino de Santiago ha experimentado un resurgimiento fantástico debido a los esfuerzos de promoción turística, 
+                    pero también gracias al trabajo de los amantes del Camino y los cientos de voluntarios que entregan su vida y su trabajo en los albergues, 
+                    hospitales y centros públicos.
+                </p>
+                <p>
+                    Para hacerte una idea, 1,245 peregrinos llegaron a Santiago en 1985 y más de 100,000 en 1993, el año en que la ruta fue declarada 
+                    Patrimonio de la Humanidad por la UNESCO. Para el Año Santo 2010, estos números llegaron a 270,000 y más de 327,000 obtuvieron su 
+                    Compostela solo en 2018.
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="uk-container uk-padding" id="history">
+            
+            <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover" data-src="camino1.jpg" uk-img>
+                <h1 class="uk-heading-line uk-text-center dark">Caminos</h1>
+            </div>
+            <div class="section" id="primitivo">
+                <h2 class="uk-heading-bullet uk-text-bold">Camino Primitivo</h2>
+                <div class="uk-child-width-1-3@s" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Inicio</h2>
+                            <p class="uk-text-bold">Oviedo</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Distancia</h2>
+                            <p class="uk-text-bold">313 Km</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Etapas</h2>
+                            <p class="uk-text-bold">14</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-margin" data-src="primitivo.jpg" uk-img>
+                </div>
+
+                <p>
+                    El Camino Primitivo es una opción maravillosa para descubrir las verdaderas raíces de la peregrinación, partiendo desde Oviedo y 
+                    atravesando el Principado asturiano por occidente para acceder a Galicia por la provincia de Lugo hasta enlazar con el trazado 
+                    del Camino Francés en el municipio de Melide, a escasos 55km Santiago de Compostela.
+                </p>
+                
+                <p>
+                    El recorrido atraviesa zonas montañosas poco pobladas, con paisajes de imponente belleza natural y sin apenas tramos por asfalto, 
+                    lo que contribuye a su esplendor paisajístico. Además los recursos históricos y patrimoniales son de gran abundancia, especialmente 
+                    en las dos ciudades monumentales que recorremos en nuestro trazado, Oviedo y Lugo, además de la propia Compostela que nos aguarda 
+                    a nuestra llegada.
+                </p>
+            </div>
+
+            <div class="section" id="primitivo">
+                <h2 class="uk-heading-bullet uk-text-bold">Camino del Norte</h2>
+                <div class="uk-child-width-1-3@s" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Inicio</h2>
+                            <p class="uk-text-bold">Irún</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Distancia</h2>
+                            <p class="uk-text-bold">824 Km</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Etapas</h2>
+                            <p class="uk-text-bold">34</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-margin" data-src="norte.jpg" uk-img>
+                </div>
+
+                <p>
+                    El Camino del Norte recorre toda la costa peninsular desde este a oeste bordeando el Cantábrico a lo largo de los principales 
+                    municipios del norte de España. Parte de Irún en dirección a Compostela, dejando a su paso un rastro imborrable en ciudades como 
+                    San Sebastián, Bilbao, Santander o Gijón hasta adentrarse en Galicia. Desde Gijón se nos presenta la decisión clave de 
+                    nuestra peregrinación, ya que tenemos la opción de tomar un enlace que nos dirige hasta Oviedo para proseguir por el Camino Primitivo 
+                    o, por el contrario, continuar el Camino del Norte en dirección Avilés y adentrarnos en Galicia por la localidad lucense de Ribadeo, 
+                    un municipio costero de la Mariña Lucense que nos separa aproximadamente 180km de nuestra llegada a Santiago.
+                </p>
+            </div>
+
+            <div class="section" id="primitivo">
+                <h2 class="uk-heading-bullet uk-text-bold">Camino Francés</h2>
+                <div class="uk-child-width-1-3@s" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Inicio</h2>
+                            <p class="uk-text-bold">St. Jean Pied de Port (Francia)</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Distancia</h2>
+                            <p class="uk-text-bold">764 Km</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Etapas</h2>
+                            <p class="uk-text-bold">33</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-margin" data-src="frances.jpg" uk-img>
+                </div>
+
+                <p>
+                    En 2004 recibió el Premio Príncipe de Asturias de la Concordia, por ser considerado como un exponente para la convivencia de personas 
+                    y culturas y del desarrollo de las raíces europeas del cristianismo. Es el Camino de Santiago mejor señalizado, salvando la picaresca 
+                    de algún hostelero que intenta llevar al peregrino a la puerta de su establecimiento, provocando de este modo pequeños desvíos de la 
+                    ruta oficial; es el que cuenta con una mayor red de albergues públicos y servicios accesibles, pero es asimismo el más masificado, 
+                    provocando que, especialmente en los meses de verano, llegar al siguiente albergue se convierta en una carrera de fondo para no 
+                    quedarse sin plaza, obligando de este modo a emprender camino a horas casi intempestivas.
+                </p>
+                
+                <p>
+                    Dentro de su gran trazado existen dos puntos de inicio bastante comunes entre los peregrinos, aunque el inicio principal es la localidad 
+                    de Saint Jean Pied de Port, muchos deciden comenzar el Camino de Santiago desde Roncesvalles, para así evitar cruzar la frontera entre 
+                    España y Francia, y no subir la gran cuesta que las separa. La otra alternativa muy común es empezar desde Sarria, ya que cumple los más 
+                    de 100 km necesarios para la Compostela y se pueden recorrer en 5 días, muy útil para la gente que se inicia o tiene poco tiempo para 
+                    disfrutar del Camino.
+                </p>
+            </div>
+
+            <div class="section" id="primitivo">
+                <h2 class="uk-heading-bullet uk-text-bold">Camino Portugués</h2>
+                <div class="uk-child-width-1-3@s" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Inicio</h2>
+                            <p class="uk-text-bold">Lisboa</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Distancia</h2>
+                            <p class="uk-text-bold">620 Km</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Etapas</h2>
+                            <p class="uk-text-bold">25</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-margin" data-src="portugues.jpg" uk-img>
+                </div>
+
+                <p>
+                    Se trata de un Camino diferente: no encontraremos mesetas, alturas complicadas ni marcados desniveles como ocurre, por ejemplo, 
+                    con el Camino Francés; pero sí podremos disfrutar de bosques y cruceros milenarios que esconden bajo sus mantos los cantares de 
+                    los antiguos trovadores de la alta época medieval y las cantigas de amigo, amor y maldecir de Martin Codax o Mendiño.
+                </p>
+                
+                <p>
+                    En el siglo XX sufrió un pequeño proceso de estancamiento debido a la famosa aparición de la Virgen a tres pastores en la localidad 
+                    lusa de Fátima, lo que propició que el Santuario que se levantó en honor a la virgen ocupara el protagonismo en detrimento de la 
+                    ruta peregrina hacia Santiago. Sin embargo no tardaría mucho en aflorar de nuevo el sentimiento de devoción al Apóstol y el 
+                    posicionamiento de la ruta a nivel internacional más allá de la península.
+                </p>
+            </div>
+
+            <div class="section" id="primitivo">
+                <h2 class="uk-heading-bullet uk-text-bold">Via de la Plata</h2>
+                <div class="uk-child-width-1-3@s" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Inicio</h2>
+                            <p class="uk-text-bold">Sevilla</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Distancia</h2>
+                            <p class="uk-text-bold">970 Km</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Etapas</h2>
+                            <p class="uk-text-bold">36</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-margin" data-src="viaplata.jpg" uk-img>
+                </div>
+
+                <p>
+                    La Vía de la Plata es un trazado bien señalizado, donde las flechas amarillas destacan por su abundancia, lo que agradeceremos 
+                    para no perdernos en los extensos dominios andaluces y extremeños. En esta comunidad existen además unos pequeños bloques de 
+                    granito con azulejos de diferentes colores; si el azulejo es de color amarillo indican que el camino es transitable aunque 
+                    no concordante con el camino original, mientras que si la marca es verde nos indica el trazado original de la ruta romana, 
+                    no concordante de forma íntegra con la jacobea. Por ello debemos fijarnos que los bloques contengan o bien un azulejo 
+                    amarillo o bien verde y amarillo al mismo tiempo, siendo de ese modo el mismo trazado que las flechas amarillas indican para 
+                    llevarnos en dirección a Compostela.
+                </p>
+                
+                <p>
+                    Más de 700 kilómetros separan Sevilla de Astorga, a los que deberemos sumar la alternativa elegida para entrar en Galicia. 
+                    Atrás quedan ciudades milenarias como la propia Sevilla, Mérida o la histórica Salamanca, además de un camino especialmente 
+                    duro en las épocas de temperaturas elevadas al transitar durante muchos tramos por zonas sin sombra alguna. Por delante, 
+                    un camino histórico con numerosos tesoros patrimoniales y culturales que hacen de esta Vía una de las alternativas que cada 
+                    año cuenta con más adeptos.
+                </p>
+            </div>
+
+            <div class="section" id="primitivo">
+                <h2 class="uk-heading-bullet uk-text-bold">Epílogo Fisterra-Muxía</h2>
+                <div class="uk-child-width-1-3@s" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Inicio</h2>
+                            <p class="uk-text-bold">Santiago</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Distancia</h2>
+                            <p class="uk-text-bold">119 Km</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-text-center uk-text-middle uk-card-body">
+                            <h2 class="uk-card-title uk-text-uppercase">Etapas</h2>
+                            <p class="uk-text-bold">5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-margin" data-src="epilogo.jpg" uk-img>
+                </div>
+
+                <p>
+                    Al tratarse de un epílogo al trazado jacobeo propiamente dicho, existe la posibilidad de partir desde Santiago directamente 
+                    hacia Finisterre y luego continuar a Muxía o realizar el camino inverso. ¡La elección está en tus manos! En cuanto a la señalización, 
+                    está se encuentra en buen estado, siendo la primera concha la situada en el compostelano parque de San Lorenzo.
+                </p>
+                
+                <p>
+                    Es probable que te cruces con algún peregrino que camina en dirección opuesta, ¡no te asustes! Esto puede deberse a que han optado 
+                    por realizar este tramo a la inversa, como hemos descrito anteriormente. Una vez en Finisterre o en Muxía tampoco tendremos problemas 
+                    a la hora de orientarnos en una u otra dirección, actualmente son muchos los peregrinos que deciden visitar la maravillosa Costa da Morte.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>

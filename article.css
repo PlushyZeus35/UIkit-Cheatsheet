@@ -1,0 +1,26 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h2, p{
+    font-family: 'Antic Slab', serif;
+    color: white;
+}
+
+.uk-heading-line{
+    /* font-family: 'Antic Slab', serif; */
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.dark{
+    color: black;
+}
+
+a{
+    color: #35baf6;
+}
+
+.main{
+    background: rgb(44,62,80);
+    background: linear-gradient(129deg, rgba(44,62,80,1) 24%, rgba(0,0,0,1) 100%);
+}
